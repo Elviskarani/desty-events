@@ -2,25 +2,37 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Calendar, Megaphone, Video, Camera, Instagram, Twitter, Facebook, Play } from 'lucide-react';
+import { Calendar, Megaphone, Video,PartyPopper,Palette, Crosshair,Zap, Camera, Instagram, Twitter, Facebook, Play } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 const ServicesComponent = () => {
+
+  const router = useRouter();
+
   const services = [
     {
-      icon: <Calendar size={24} />,
-      title: "Event Management & Marketing"
+      icon: <Crosshair size={24} />,
+      title: "BTL marketing"
     },
     {
       icon: <Megaphone size={24} />,
-      title: "Experiential Marketing"
+      title: "ATL Marketing"
     },
     {
-      icon: <Video size={24} />,
-      title: "Event Audiovisual Services"
+      icon: <Zap size={24} />,
+      title: "TTL marketing"
+    },
+    {
+      icon: <PartyPopper size={24} />,
+      title: "Full service event management"
     },
     {
       icon: <Camera size={24} />,
-      title: "Event Coverage"
+      title: "Videography & photgraphy"
+    },
+    {
+      icon: <Palette size={24} />,
+      title: "Branding"
     }
   ];
 
@@ -53,6 +65,8 @@ const ServicesComponent = () => {
 
   const handleExploreServices = () => {
     // Add your navigation logic here
+    router.push('/work');
+
   };
 
   const handleSocialClick = (url: string) => {
@@ -61,9 +75,7 @@ const ServicesComponent = () => {
     }
   };
 
-  const handleTikTokPlay = () => {
-    // Add your TikTok video play logic here
-  };
+ 
 
   return (
     <div className="bg-[#111418] text-white w-full">
