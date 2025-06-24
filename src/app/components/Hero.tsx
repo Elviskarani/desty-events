@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="w-full">
-        <div className="px-2 sm:px-3">
+        <div className="px-1 sm:px-3">
           <div className="relative flex min-h-[350px] xs:min-h-[400px] sm:min-h-[480px] md:min-h-[520px] lg:min-h-[560px] flex-col gap-3 sm:gap-4 md:gap-6 lg:gap-8 bg-cover bg-center bg-no-repeat sm:rounded-xl items-center justify-center p-3 sm:p-4 md:p-6 overflow-hidden">
             {/* Next.js optimized background image */}
             <Image
@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/40 sm:rounded-xl" />
 
             {/* Content container */}
-            <div className="relative z-10 flex flex-col gap-2 sm:gap-3 text-center px-2 sm:px-3 md:px-6 lg:px-8 w-full max-w-xs xs:max-w-sm sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
+            <div className="relative z-10 flex flex-col gap-2 sm:gap-3 text-center px-1 sm:px-3 md:px-6 lg:px-8 w-full max-w-xs xs:max-w-sm sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
               <h1 className="text-white text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-black leading-tight tracking-[-0.02em] sm:tracking-[-0.033em] mb-1 sm:mb-2 md:mb-3">
                 We don't just plan events—we craft experiences that people remember.
               </h1>
@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
       {/* Description section */}
-      <div className="px-3 sm:px-4 md:px-6 lg:px-8 xl:px-12 w-full max-w-7xl mx-auto">
+      <div className="px-1 sm:px-4 md:px-6 lg:px-8 xl:px-12 w-full max-w-7xl mx-auto">
         <p className="text-white text-xs xs:text-sm sm:text-base md:text-lg font-normal leading-relaxed pb-4 sm:pb-6 md:pb-8 pt-3 sm:pt-4 md:pt-6 text-center w-full">
           As a leading event management and marketing company, we specialize in creating memorable experiences. We've successfully executed major campus events across over 27
           campuses and organized significant concerts and festivals, including the popular GenZ and Rongai Festivals. Our achievements include being recognized as Event

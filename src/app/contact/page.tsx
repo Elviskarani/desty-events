@@ -37,7 +37,7 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-[#111418]">
-      <div className="px-4 sm:px-8 lg:px-40 flex flex-1 justify-center py-5">
+      <div className="px-1 sm:px-8 lg:px-40 flex flex-1 justify-center py-5">
         <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
           
           {/* Hero Section */}

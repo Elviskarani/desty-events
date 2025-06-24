@@ -112,7 +112,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-[#111418]">
       {/* Use responsive padding: px-4 on mobile, sm:px-6 on small screens, lg:px-8 on large screens */}
-      <div className="px-4 sm:px-6 lg:px-8 flex flex-1 justify-center py-5">
+      <div className="px-1 sm:px-6 lg:px-8 flex flex-1 justify-center py-5">
         <div className="layout-content-container flex flex-col w-full max-w-5xl">
           {/* Header Section */}
           <div className="flex flex-wrap justify-between gap-3 p-4">

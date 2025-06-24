@@ -25,11 +25,11 @@ const EventsSection = () => {
 
   return (
     <>
-      <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+      <h2 className="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-1 pb-3 pt-5">
         Upcoming Major Events
       </h2>
       <div className="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        <div className="flex items-stretch p-4 gap-3">
+        <div className="flex items-stretch p-1 gap-3">
           {events.map((event) => (
             <div key={event.id} className="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
               <div

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function work() {
   return (
-      <div className="px-40 flex flex-1 justify-center py-5 min-h-screen bg-[#111418]">
+      <div className="px-2 sm:px-8 md:px-16 lg:px-32 xl:px-40 flex flex-1 justify-center py-5 min-h-screen bg-[#111418]">
       <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
         <div className="flex flex-wrap justify-between gap-3 p-4">
           <div className="flex min-w-72 flex-col gap-3">

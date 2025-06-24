@@ -81,11 +81,11 @@ const ServicesComponent = () => {
     <div className="bg-[#111418] text-white w-full">
       {/* Services Section */}
       <div className="w-full">
-        <h2 className="text-white text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-3 sm:px-4 pb-3 pt-4 sm:pt-5">
+        <h2 className="text-white text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-1 sm:px-4 pb-3 pt-4 sm:pt-5">
           Our Services
         </h2>
         {/* Mobile: 1 column, Small: 2 columns, Medium+: 2 columns, Large: 4 columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3 p-3 sm:p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3 p-1 sm:p-4">
           {services.map((service, index) => (
             <div key={index} className="flex gap-3 rounded-lg border border-[#3c4753] bg-[#1c2126] p-3 sm:p-4 items-center hover:border-[#4a5662] transition-colors">
               <div className="text-white flex-shrink-0">
@@ -99,7 +99,7 @@ const ServicesComponent = () => {
         </div>
 
         {/* Explore Services Button */}
-        <div className="flex px-3 sm:px-4 py-3 justify-center">
+        <div className="flex px-1 sm:px-4 py-3 justify-center">
           <button
             onClick={handleExploreServices}
             className="flex min-w-[200px] sm:min-w-[240px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-11 sm:h-12 px-4 sm:px-6 bg-[#293038] text-white text-sm sm:text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#3a424a] active:bg-[#1f252a] transition-colors duration-200"
@@ -109,18 +109,18 @@ const ServicesComponent = () => {
         </div>
 
         {/* Quote */}
-        <p className="text-white text-sm sm:text-base font-normal leading-relaxed pb-4 sm:pb-6 pt-2 sm:pt-3 px-3 sm:px-4 text-center max-w-4xl mx-auto">
+        <p className="text-white text-sm sm:text-base font-normal leading-relaxed pb-4 sm:pb-6 pt-2 sm:pt-3 px-1 sm:px-4 text-center max-w-4xl mx-auto">
           "95% of our clients report increased brand awareness and engagement after our events."
         </p>
       </div>
 
       {/* Social Media Section */}
       <div className="w-full">
-        <h2 className="text-white text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-3 sm:px-4 pb-3 pt-4 sm:pt-5">
+        <h2 className="text-white text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-1 sm:px-4 pb-3 pt-4 sm:pt-5">
           Stay Connected
         </h2>
         {/* Mobile: 2 columns, Small: 4 columns */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 px-3 sm:px-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 px-1 sm:px-4">
           {socialMedia.map((platform, index) => (
             <div
               key={index}
@@ -142,10 +142,10 @@ const ServicesComponent = () => {
 
       {/* TikTok Feed Section */}
       <div className="w-full">
-        <h2 className="text-white text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-3 sm:px-4 pb-3 pt-4 sm:pt-5">
+        <h2 className="text-white text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-1 sm:px-4 pb-3 pt-4 sm:pt-5">
            Our TikTok
         </h2>
-        <div className="p-3 sm:p-4">
+        <div className="p-1 sm:p-4">
           <blockquote
             className="tiktok-embed"
             cite="https://www.tiktok.com/@desty_events_kenya"

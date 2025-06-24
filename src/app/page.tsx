@@ -17,10 +17,17 @@ export default function Home() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?display=swap&family=Be+Vietnam+Pro:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900"
         />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://desty-events.vercel.app/" />
+        <meta property="og:title" content="Desty Events" />
+        <meta property="og:description" content="We craft experiences that people remember" />
+        <meta property="og:image" content="/destyeventsblack.jpeg" />
       </Head>
       <div className="layout-container flex h-full grow flex-col">
         {/* Mobile responsive padding - removes the fixed px-40 */}
-        <div className="px-3 sm:px-3 md:px-8 lg:px-12 xl:px-16 2xl:px-40 flex flex-1 justify-center py-3 sm:py-3 md:py-5">
+        <div className="px-1 sm:px-3 md:px-8 lg:px-12 xl:px-16 2xl:px-40 flex flex-1 justify-center py-3 sm:py-3 md:py-5">
           {/* Mobile responsive content container */}
           <div className="layout-content-container flex flex-col w-full max-w-xs xs:max-w-sm sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-[960px] flex-1">
             <Hero />
