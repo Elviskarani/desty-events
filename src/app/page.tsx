@@ -24,7 +24,7 @@ export default function Home() {
   <meta property="og:url" content="https://desty-events.vercel.app/" />
   <meta property="og:title" content="Desty Events" />
   <meta property="og:description" content="We craft experiences that people remember" />
-  <meta property="og:image" content="https://desty-events.vercel.app/destyeventsblack.jpeg?v=1" />
+  <meta property="og:image" content="https://desty-events.vercel.app/destyeventsblack.jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -34,7 +34,7 @@ export default function Home() {
   <meta name="twitter:url" content="https://desty-events.vercel.app/" />
   <meta name="twitter:title" content="Desty Events" />
   <meta name="twitter:description" content="We craft experiences that people remember" />
-  <meta name="twitter:image" content="https://desty-events.vercel.app/destyeventsblack.jpeg?v=1" />
+  <meta name="twitter:image" content="https://desty-events.vercel.app/destyeventsblack.jpeg" />
 
   {/* General meta tags */}
   <meta name="description" content="We craft experiences that people remember" />
